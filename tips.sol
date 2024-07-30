@@ -9,14 +9,18 @@ contract tips {
 
     //1.หยอดเงินเข้าไปในกระปุก
 
+    function addtips() payable public {
+
+    }
+
     //2.เช็คเงินในกระปุก
-
-    //3.เพิ่มคนใช้งาน
-
-    //4.เอาคนใช้งานออก
-
-    //5.ดูคนใช้งาน
-
-    //6.disribute tips
     
-}
+    function viewtips() public view returns (uint){
+        return address(this).balance;
+    }
+
+    //3. add User
+    
+   
+
+   }
